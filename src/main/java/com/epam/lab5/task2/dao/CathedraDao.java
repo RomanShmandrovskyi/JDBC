@@ -144,4 +144,8 @@ public class CathedraDao {
 
         return cathedraList;
     }
+
+    public void showMessage(String message){
+        System.out.println(message);
+    }
 }
