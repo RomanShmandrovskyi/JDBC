@@ -110,4 +110,8 @@ public class AddressDao {
         }
         return  addressList;
     }
+
+    public void showMessage(String message){
+        System.out.println(message);
+    }
 }
